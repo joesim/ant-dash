@@ -1,0 +1,11 @@
+body {
+    margin: 0
+  }
+
+/* theme color */
+$--color-primary: #f17b10;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
